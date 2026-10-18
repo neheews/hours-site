@@ -1,0 +1,16 @@
+# GitHub Pages 전용 — `neheews/hours-site` 의 뿌리에 그대로 올라간다.
+#
+# **손으로 고칠 곳은 여기다.** 사이트 저장소 쪽을 고치면 다음
+# `scripts/sync_legal.py` 에서 덮인다.
+#
+# **front matter 가 없는 .md 는 Jekyll 이 변환하지 않고 원문 그대로 낸다.**
+# 개인정보처리방침이 마크다운 기호 범벅으로 보이면 심사에서 곤란하다 —
+# 그래서 올라가는 .md 셋에 전부 front matter 가 있다.
+#
+# `baseurl` 은 프로젝트 페이지라서 필요하다. 없으면 테마가
+# `relative_url` 로 거는 CSS 가 뿌리에서 404 가 난다.
+theme: jekyll-theme-minimal
+title: Hours
+description: 공공데이터로 분석한 경마 경주 기록 통계
+url: https://neheews.github.io
+baseurl: /hours-site
